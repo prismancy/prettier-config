@@ -1,0 +1,14 @@
+{
+  "name": "@in5net/prettier-config",
+  "version": "1.0.0",
+  "description": "Configuration for Prettier",
+  "author": "in5net",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/in5net/prettier-config.git"
+  },
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  }
+}
