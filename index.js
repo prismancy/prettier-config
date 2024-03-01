@@ -1,6 +1,16 @@
+/** @type {import('prettier').Options} */
 module.exports = {
-  arrowParens: "avoid",
-  bracketSpacing: true,
-  singleQuote: false,
-  trailingComma: "all",
+	useTabs: true,
+	quoteProps: "consistent",
+	arrowParens: "avoid",
+	plugins: [require("prettier-plugin-svelte")],
+	overrides: [
+		{
+			files: "*.svelte",
+			options: {
+				parser: "svelte",
+				useTabs: false,
+			},
+		},
+	],
 };

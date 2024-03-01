@@ -1,5 +1,5 @@
 {
-  "name": "@in5net/prettier-config",
+  "name": "@iz7n/prettier-config",
   "version": "1.1.0",
   "description": "Configuration for Prettier",
   "author": "in5net",
@@ -8,7 +8,15 @@
     "url": "git+https://github.com/in5net/prettier-config.git"
   },
   "main": "index.js",
+  "files": [
+    "index.js"
+  ],
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "dependencies": {
+    "prettier": "^3.2.5",
+    "prettier-plugin-svelte": "^3.2.2"
+  },
+  "prettier": "./index.js"
 }
