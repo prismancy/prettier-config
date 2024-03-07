@@ -1,9 +1,10 @@
 /** @type {import('prettier').Options} */
 module.exports = {
+	experimentalTernaries: true,
 	useTabs: true,
 	quoteProps: "consistent",
 	arrowParens: "avoid",
-	plugins: [require("prettier-plugin-svelte")],
+	plugins: ["prettier-plugin-svelte"],
 	overrides: [
 		{
 			files: "*.svelte",
