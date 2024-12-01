@@ -1,6 +1,6 @@
 {
   "name": "@iz7n/prettier-config",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "Configuration for Prettier",
   "author": "iz7n",
   "repository": {
@@ -15,10 +15,10 @@
     "access": "public"
   },
   "prettier": "./index.js",
+  "peerDependencies": {
+    "prettier": ">=3.1.0"
+  },
   "dependencies": {
     "prettier-plugin-svelte": "^3.3.2"
-  },
-  "devDependencies": {
-    "prettier": "^3.3.3"
   }
 }
