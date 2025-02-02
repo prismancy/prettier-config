@@ -1,11 +1,11 @@
 {
   "name": "@iz7n/prettier-config",
-  "version": "1.4.1",
+  "version": "1.4.2",
   "description": "Configuration for Prettier",
-  "author": "iz7n",
+  "author": "prismancy",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iz7n/prettier-config.git"
+    "url": "git+https://github.com/prismancy/prettier-config.git"
   },
   "main": "index.js",
   "files": [
